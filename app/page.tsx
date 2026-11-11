@@ -135,7 +135,7 @@ export default function Home() {
       <section id="contact" className="mx-auto max-w-7xl px-5 py-24">
         <Label>Contact</Label>
         <H2>Bring us the hard part.</H2>
-        <div className="mt-10 grid gap-10 lg:grid-cols-2">
+        <div className="mt-10 max-w-xl">
           <div className="space-y-4">
             <div className="rounded-2xl border border-white/10 p-6">
               <p className="text-xs uppercase text-slate-500">WhatsApp / Phone</p>
@@ -152,13 +152,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <form action="https://wa.me/923425850147" method="get" target="_blank" className="space-y-4">
-            {["Company", "Name", "Email"].map((f) => (
-              <input key={f} placeholder={f} className="w-full rounded-xl border border-white/15 bg-transparent px-4 py-3 text-white outline-none focus:border-cyan-300" />
-            ))}
-            <textarea name="text" rows={4} placeholder="Message" className="w-full rounded-xl border border-white/15 bg-transparent px-4 py-3 text-white outline-none focus:border-cyan-300" />
-            <button className="rounded-full bg-cyan-300 px-7 py-3 font-medium text-[#070d1a]">Send message</button>
-          </form>
         </div>
       </section>
 

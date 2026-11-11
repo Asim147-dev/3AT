@@ -5,7 +5,7 @@ import Starfield from "@/components/Starfield";
 import Tilt from "@/components/Tilt";
 import Reveal from "@/components/Reveal";
 import { Logo, ServiceArt, Planet } from "@/components/Art";
-import { services, orbits, socials, contact } from "@/lib/data";
+import { services, orbits, socials } from "@/lib/data";
 
 const Label = ({ children }: { children: React.ReactNode }) => (
   <p className="text-xs uppercase tracking-[0.35em] text-cyan-300">{children}</p>
@@ -139,13 +139,7 @@ export default function Home() {
           <div className="space-y-4">
             <div className="rounded-2xl border border-white/10 p-6">
               <p className="text-xs uppercase text-slate-500">WhatsApp / Phone</p>
-              <a href="https://wa.me/923108697290" className="text-xl text-white">{contact.phone}</a>
-              <p className="mt-4 text-xs uppercase text-slate-500">Email</p>
-              {contact.emails.map((e) => <a key={e} href={`mailto:${e}`} className="block text-white hover:text-cyan-300">{e}</a>)}
-              <div className="mt-5 flex flex-wrap gap-3">
-                <a href={contact.cv} className="rounded-full border border-cyan-300/50 px-5 py-2 text-sm text-cyan-300 hover:bg-cyan-300 hover:text-[#070d1a]">Download CV</a>
-                <a href={contact.hire} target="_blank" rel="noopener noreferrer" className="rounded-full bg-cyan-300 px-5 py-2 text-sm font-medium text-[#070d1a]">Hire me on Fiverr</a>
-              </div>
+              <a href="https://wa.me/923425850147" className="text-xl text-white">0342 5850147</a>
             </div>
             <div className="rounded-2xl border border-white/10 p-6">
               <p className="text-xs uppercase text-slate-500">Profiles</p>
@@ -158,7 +152,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <form action="https://wa.me/923108697290" method="get" target="_blank" className="space-y-4">
+          <form action="https://wa.me/923425850147" method="get" target="_blank" className="space-y-4">
             {["Company", "Name", "Email"].map((f) => (
               <input key={f} placeholder={f} className="w-full rounded-xl border border-white/15 bg-transparent px-4 py-3 text-white outline-none focus:border-cyan-300" />
             ))}

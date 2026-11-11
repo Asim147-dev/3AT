@@ -73,13 +73,6 @@ export const stack: Record<string, string[]> = {
   Tools: ["Git", "GitHub", "Docker", "Vercel"],
 };
 
-export const contact = {
-  phone: "+92 310 8697290",
-  emails: ["wp.frdeveloper@gmail.com", "iamatifali7@gmail.com"],
-  cv: "http://atifali.wuaze.com/wp-content/uploads/2026/02/Full-Stack-Developer-MERN-Stack-WordPress-Shopify-Expert-E-Commerce-Specialist.pdf",
-  hire: "https://www.fiverr.com/s/xXevq5Z",
-};
-
 export const socials = [
   ["LinkedIn", "https://www.linkedin.com/in/atifalideveloper/"],
   ["GitHub", "https://github.com/Atifkhan7"],
@@ -87,7 +80,7 @@ export const socials = [
   ["Instagram", "https://www.instagram.com/iamatifwebdeveloper/"],
   ["TikTok", "https://www.tiktok.com/@atifaliwebdeveloper"],
   ["Facebook", "https://www.facebook.com/profile.php?id=61552752110151"],
-  ["WhatsApp", "https://wa.me/923108697290"],
+  ["WhatsApp", "https://wa.me/923425850147"],
 ];
 
 export const shotSlugs = new Set(["7-perfumes", "ace-one-solutions", "adilocsss", "asraderm", "audley-travel", "benjamin-one", "bow-bridge-llc", "brand-motion", "ctc-ground-usa", "cubix", "cv-distribution", "effectus-software", "gatundus", "gcp-pak", "hb-fusion", "hsen-tps", "joshua-ellis", "le-bijou", "lead4s", "lemara-commercial", "let-s-talk-about-lgsoc", "limelight", "mg-motor-australia", "nz-motors", "on-the-go-tours", "opal-bpo", "outright-jobs", "outright-llc", "pactec-enclosures", "premier-lubricants", "purity-spa-med", "real-estate-agency", "rumluh", "saba-asghar", "safaa-world", "sania-maskatiya", "slmc", "the-world-travel-guy", "travel-talk-tours", "trusted-ai-solutions", "universal-sports-lab", "usa-study", "vision-goal", "worldwide-serpent", "wyzant"]);

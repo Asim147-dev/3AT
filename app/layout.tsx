@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "3AT | Web App, AI and SaaS Developer",
+  title: "3AT Technologies Private Ltd | Web App, AI and SaaS Developer",
   description: "Full-stack developer building web apps, AI solutions and SaaS products.",
 };
 

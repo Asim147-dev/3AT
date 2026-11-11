@@ -21,7 +21,7 @@ export default function Home() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#070d1a]/80 backdrop-blur">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
           <a href="#" className="flex items-center gap-2 text-lg font-semibold text-white">
-            <Logo />Atif Ali<span className="text-cyan-300">.</span>
+            <Logo />3AT<span className="text-cyan-300">.</span>
           </a>
           <div className="hidden gap-7 text-sm md:flex">
             {["vision", "services", "stack", "work", "contact"].map((s) => (
@@ -46,7 +46,7 @@ export default function Home() {
             Build technology. Create innovation. Drive growth.
           </h1>
           <p className="mt-6 text-xl text-cyan-200">
-            Atif Ali: Web apps, AI solutions and SaaS products engineered for decisive launches.
+            3AT: Web apps, AI solutions and SaaS products engineered for decisive launches.
           </p>
           <p className="mt-4 max-w-2xl text-slate-400">
             Full-stack developer (MERN, Next.js, WordPress, Shopify) delivering production-ready software for clients worldwide.
@@ -170,7 +170,7 @@ export default function Home() {
 
       <footer className="border-t border-white/10 px-5 py-10 text-sm">
         <div className="mx-auto flex max-w-7xl flex-wrap justify-between gap-4">
-          <p className="flex items-center gap-2"><Logo size={20} />© 2026 Atif Ali. All rights reserved.</p>
+          <p className="flex items-center gap-2"><Logo size={20} />© 2026 3AT. All rights reserved.</p>
           <p>Web apps · AI solutions · SaaS products</p>
         </div>
       </footer>

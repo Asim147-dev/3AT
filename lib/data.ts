@@ -74,12 +74,6 @@ export const stack: Record<string, string[]> = {
 };
 
 export const socials = [
-  ["LinkedIn", "https://www.linkedin.com/in/atifalideveloper/"],
-  ["GitHub", "https://github.com/Atifkhan7"],
-  ["Fiverr", "https://www.fiverr.com/s/xXevq5Z"],
-  ["Instagram", "https://www.instagram.com/iamatifwebdeveloper/"],
-  ["TikTok", "https://www.tiktok.com/@atifaliwebdeveloper"],
-  ["Facebook", "https://www.facebook.com/profile.php?id=61552752110151"],
   ["WhatsApp", "https://wa.me/923425850147"],
 ];
 
